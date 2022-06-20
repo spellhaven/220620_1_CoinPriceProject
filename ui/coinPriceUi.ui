@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>522</width>
-    <height>215</height>
+    <width>566</width>
+    <height>291</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -19,19 +19,19 @@
      <rect>
       <x>20</x>
       <y>13</y>
-      <width>56</width>
-      <height>12</height>
+      <width>91</width>
+      <height>16</height>
      </rect>
     </property>
     <property name="text">
-     <string>코인종류 :</string>
+     <string>가상자산 종류 :</string>
     </property>
    </widget>
    <widget class="QComboBox" name="coin_comboBox">
     <property name="geometry">
      <rect>
-      <x>87</x>
-      <y>7</y>
+      <x>120</x>
+      <y>10</y>
       <width>131</width>
       <height>22</height>
      </rect>
@@ -64,9 +64,9 @@
    <widget class="QLabel" name="coin_ticker_label">
     <property name="geometry">
      <rect>
-      <x>270</x>
+      <x>280</x>
       <y>50</y>
-      <width>131</width>
+      <width>161</width>
       <height>31</height>
      </rect>
     </property>
@@ -91,7 +91,7 @@
    <widget class="QLabel" name="coin_changerate_label">
     <property name="geometry">
      <rect>
-      <x>420</x>
+      <x>460</x>
       <y>50</y>
       <width>81</width>
       <height>31</height>
@@ -106,7 +106,7 @@
      </font>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color:red;color:white;</string>
+     <string notr="true">background-color:crimson;color:white;</string>
     </property>
     <property name="text">
      <string>+0.05%</string>
@@ -119,7 +119,7 @@
     <property name="geometry">
      <rect>
       <x>36</x>
-      <y>109</y>
+      <y>119</y>
       <width>91</width>
       <height>16</height>
      </rect>
@@ -141,7 +141,7 @@
     <property name="geometry">
      <rect>
       <x>140</x>
-      <y>110</y>
+      <y>120</y>
       <width>151</width>
       <height>16</height>
      </rect>
@@ -154,7 +154,7 @@
     <property name="geometry">
      <rect>
       <x>36</x>
-      <y>129</y>
+      <y>139</y>
       <width>101</width>
       <height>16</height>
      </rect>
@@ -176,7 +176,7 @@
     <property name="geometry">
      <rect>
       <x>140</x>
-      <y>130</y>
+      <y>140</y>
       <width>151</width>
       <height>16</height>
      </rect>
@@ -189,7 +189,7 @@
     <property name="geometry">
      <rect>
       <x>36</x>
-      <y>149</y>
+      <y>159</y>
       <width>91</width>
       <height>16</height>
      </rect>
@@ -211,7 +211,7 @@
     <property name="geometry">
      <rect>
       <x>140</x>
-      <y>150</y>
+      <y>160</y>
       <width>151</width>
       <height>16</height>
      </rect>
@@ -224,7 +224,7 @@
     <property name="geometry">
      <rect>
       <x>280</x>
-      <y>110</y>
+      <y>120</y>
       <width>81</width>
       <height>16</height>
      </rect>
@@ -246,7 +246,7 @@
     <property name="geometry">
      <rect>
       <x>280</x>
-      <y>132</y>
+      <y>142</y>
       <width>81</width>
       <height>16</height>
      </rect>
@@ -268,7 +268,7 @@
     <property name="geometry">
      <rect>
       <x>281</x>
-      <y>152</y>
+      <y>162</y>
       <width>71</width>
       <height>16</height>
      </rect>
@@ -290,7 +290,7 @@
     <property name="geometry">
      <rect>
       <x>360</x>
-      <y>109</y>
+      <y>119</y>
       <width>161</width>
       <height>20</height>
      </rect>
@@ -303,7 +303,7 @@
     <property name="geometry">
      <rect>
       <x>360</x>
-      <y>151</y>
+      <y>161</y>
       <width>161</width>
       <height>20</height>
      </rect>
@@ -316,7 +316,7 @@
     <property name="geometry">
      <rect>
       <x>360</x>
-      <y>130</y>
+      <y>140</y>
       <width>161</width>
       <height>20</height>
      </rect>
@@ -325,13 +325,97 @@
      <string>0</string>
     </property>
    </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>200</y>
+      <width>121</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>※ 알람가격:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>220</y>
+      <width>121</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>매도가격:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="alarm_price1">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>220</y>
+      <width>113</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: 1px solid; border-color:crimson;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>220</y>
+      <width>121</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>매수가격:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="alarm_price2">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>220</y>
+      <width>113</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: 1px solid; border-color: royalblue;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="alarmButton">
+    <property name="geometry">
+     <rect>
+      <x>470</x>
+      <y>220</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>앓람시작</string>
+    </property>
+   </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>522</width>
+     <width>566</width>
      <height>21</height>
     </rect>
    </property>
