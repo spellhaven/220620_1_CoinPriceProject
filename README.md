@@ -1,4 +1,4 @@
-# 220620_1_CoinPriceProject
+# 220620_1_CryptoPriceProject
 
 PyQt5, pyupbit, telegram 모듈 사용
 
