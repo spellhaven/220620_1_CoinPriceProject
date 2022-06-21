@@ -1,8 +1,8 @@
 import telegram
 from telegram.ext import Updater, MessageHandler, Filters
 
-token = "5297680956:AAGsASU0zdgLJmczunkMVvByaZ4OyrT6DFg"  # @UpbitPricing_bot 채팅방 토큰
-chat_id = "5503560786"  # 내 텔레그램 id
+token = "@UpbitPricing_bot 채팅방 토큰 채워넣으셈"  # @UpbitPricing_bot 채팅방 토큰
+chat_id = "내 텔레그램 id 채워넣으셈. 생각해 보니까 GitHub 전체공개는 좀 그렇네;;"  # 내 텔레그램 id
 
 telegram_bot = telegram.Bot(token=token)
 
